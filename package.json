@@ -1,0 +1,27 @@
+{
+  "name": "contactus",
+  "version": "1.0.0",
+  "description": "Contact Us and Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennismesina/ContactUs.git"
+  },
+  "keywords": [
+    "Contactus",
+    "Contact",
+    "Us"
+  ],
+  "author": "Dennis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dennismesina/ContactUs/issues"
+  },
+  "homepage": "https://github.com/dennismesina/ContactUs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
