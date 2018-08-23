@@ -11,9 +11,9 @@ var app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-contactUsRouter = require('./routes/contactUsRoutes')(Message);
+messageRouter = require('./routes/messageRoutes')(Message);
 
-app.use('/api/contactus', contactUsRouter);
+app.use('/api/messages', messageRouter);
 
 app.get('/', function (req, res) {
   res.send('Instructions here...');
